@@ -18,19 +18,16 @@
 		46A2E02C1908299100FFFE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A2E02A1908299100FFFE20 /* Main.storyboard */; };
 		46A2E02F1908299100FFFE20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A2E02E1908299100FFFE20 /* ViewController.m */; };
 		46A2E0311908299100FFFE20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A2E0301908299100FFFE20 /* Images.xcassets */; };
-		46A2E0381908299200FFFE20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A2E0371908299100FFFE20 /* XCTest.framework */; };
 		46A2E0391908299200FFFE20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A2E0181908299100FFFE20 /* Foundation.framework */; };
 		46A2E03A1908299200FFFE20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A2E01C1908299100FFFE20 /* UIKit.framework */; };
-		46A2E0421908299200FFFE20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46A2E0401908299200FFFE20 /* InfoPlist.strings */; };
-		46A2E0441908299200FFFE20 /* HeartAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A2E0431908299200FFFE20 /* HeartAlarmTests.m */; };
 		46A2E04E19082A5100FFFE20 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A2E04D19082A5100FFFE20 /* CoreBluetooth.framework */; };
 		46A2E0541909683200FFFE20 /* LabelBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A2E0531909683200FFFE20 /* LabelBorder.m */; };
 		46A2E056190988D100FFFE20 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 46A2E055190988D100FFFE20 /* gear.png */; };
 		46A2E0591909895000FFFE20 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A2E0581909895000FFFE20 /* SettingsViewController.m */; };
-		46A2E05E1909A69D00FFFE20 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A2E05D1909A69D00FFFE20 /* AVFoundation.framework */; };
 		46A2E0601909A74000FFFE20 /* bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46A2E05F1909A74000FFFE20 /* bell.wav */; };
 		46A2E063190AF3B900FFFE20 /* BarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A2E062190AF3B900FFFE20 /* BarChartView.m */; };
 		46A2E065190AF7E200FFFE20 /* barChartIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 46A2E064190AF7E200FFFE20 /* barChartIcon.png */; };
+		46C7BD441945E67C0019775E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C7BD431945E67C0019775E /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,21 +58,17 @@
 		46A2E02E1908299100FFFE20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		46A2E0301908299100FFFE20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		46A2E0361908299100FFFE20 /* HeartAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46A2E0371908299100FFFE20 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		46A2E03F1908299200FFFE20 /* HeartAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartAlarmTests-Info.plist"; sourceTree = "<group>"; };
-		46A2E0411908299200FFFE20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		46A2E0431908299200FFFE20 /* HeartAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartAlarmTests.m; sourceTree = "<group>"; };
 		46A2E04D19082A5100FFFE20 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		46A2E0521909683200FFFE20 /* LabelBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBorder.h; sourceTree = "<group>"; };
 		46A2E0531909683200FFFE20 /* LabelBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBorder.m; sourceTree = "<group>"; };
 		46A2E055190988D100FFFE20 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
 		46A2E0571909895000FFFE20 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		46A2E0581909895000FFFE20 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		46A2E05D1909A69D00FFFE20 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		46A2E05F1909A74000FFFE20 /* bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell.wav; sourceTree = "<group>"; };
 		46A2E061190AF3B900FFFE20 /* BarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartView.h; sourceTree = "<group>"; };
 		46A2E062190AF3B900FFFE20 /* BarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartView.m; sourceTree = "<group>"; };
 		46A2E064190AF7E200FFFE20 /* barChartIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barChartIcon.png; sourceTree = "<group>"; };
+		46C7BD431945E67C0019775E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A2E05E1909A69D00FFFE20 /* AVFoundation.framework in Frameworks */,
+				46C7BD441945E67C0019775E /* AVFoundation.framework in Frameworks */,
 				46A2E04E19082A5100FFFE20 /* CoreBluetooth.framework in Frameworks */,
 				46A2E01B1908299100FFFE20 /* CoreGraphics.framework in Frameworks */,
 				46A2E01D1908299100FFFE20 /* UIKit.framework in Frameworks */,
@@ -95,7 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A2E0381908299200FFFE20 /* XCTest.framework in Frameworks */,
 				46A2E03A1908299200FFFE20 /* UIKit.framework in Frameworks */,
 				46A2E0391908299200FFFE20 /* Foundation.framework in Frameworks */,
 			);
@@ -108,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				46A2E01E1908299100FFFE20 /* HeartAlarm */,
-				46A2E03D1908299200FFFE20 /* HeartAlarmTests */,
 				46A2E0171908299100FFFE20 /* Frameworks */,
 				46A2E0161908299100FFFE20 /* Products */,
 			);
@@ -126,12 +117,11 @@
 		46A2E0171908299100FFFE20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46A2E05D1909A69D00FFFE20 /* AVFoundation.framework */,
+				46C7BD431945E67C0019775E /* AVFoundation.framework */,
 				46A2E04D19082A5100FFFE20 /* CoreBluetooth.framework */,
 				46A2E0181908299100FFFE20 /* Foundation.framework */,
 				46A2E01A1908299100FFFE20 /* CoreGraphics.framework */,
 				46A2E01C1908299100FFFE20 /* UIKit.framework */,
-				46A2E0371908299100FFFE20 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,24 +158,6 @@
 				46A2E0241908299100FFFE20 /* main.m */,
 				46A2E0261908299100FFFE20 /* HeartAlarm-Prefix.pch */,
 				46A2E0301908299100FFFE20 /* Images.xcassets */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		46A2E03D1908299200FFFE20 /* HeartAlarmTests */ = {
-			isa = PBXGroup;
-			children = (
-				46A2E0431908299200FFFE20 /* HeartAlarmTests.m */,
-				46A2E03E1908299200FFFE20 /* Supporting Files */,
-			);
-			path = HeartAlarmTests;
-			sourceTree = "<group>";
-		};
-		46A2E03E1908299200FFFE20 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				46A2E03F1908299200FFFE20 /* HeartAlarmTests-Info.plist */,
-				46A2E0401908299200FFFE20 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -284,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A2E0421908299200FFFE20 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A2E0441908299200FFFE20 /* HeartAlarmTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,14 +307,6 @@
 				46A2E02B1908299100FFFE20 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		46A2E0401908299200FFFE20 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46A2E0411908299200FFFE20 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
